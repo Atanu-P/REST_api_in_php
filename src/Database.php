@@ -3,6 +3,7 @@
 namespace Src;
 
 use mysqli;
+use \Exception;
 
 class Database
 {
