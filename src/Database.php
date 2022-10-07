@@ -27,4 +27,9 @@ class Database
             throw new Exception($e->getMessage());
         }
     }
+
+    public function db_connect()
+    {
+        return $this->conn;
+    }
 }
