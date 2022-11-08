@@ -26,7 +26,7 @@ class Post
             if (!$result) {
                 throw new Exception("Error : " . $result->error);
             }
-            $row = $result->ftech_assoc();
+            $row = $result->fetch_assoc();
 
             return $row;
         } catch (Exception $e) {
